@@ -48,17 +48,18 @@ Bienvenidos al examen parcial de Métodos Cuantitativos en Ecología [MCE5 - 202
 
 En el estudio realizado por <a href="https://doi.org/10.1111/jvs.13185">Sanches -Martin R., Verdú M. y Montensinos-Navarro A. (2023)</a> evaluan cómo la facilitación interespecífica puede mantener la diversidad a lo largo de la vida de la especie al evitar la extinción de especies localmente raras en etapas juveniles y reducir las disparidades de rendimiento entre vecinos de diferentes especies en etapas maduras.. Suponga que quiere replicar este estudio en alguna zona del Ecuador. Para ello inicie respondiendo las siguientes preguntas:  
 
-## Para su potencial investigación ¿Cuál sería su hipótesis ? (Explique)
+##2.1- Para su potencial investigación ¿Cuál sería su hipótesis ? (Explique)
 
-**Respuesta: Las especies que tienen baja afinidad alos suelos con el ambiente y la reducción de especies de una comunidad con los de la vegetación facilitarían amortiguar la pérdida de especies raras.
+***Respuesta:
+Las especies que tienen baja afinidad alos suelos con el ambiente y la reducción de especies de una comunidad con los de la vegetación facilitarían amortiguar la pérdida de especies raras.
 
 
-## Muestra
+##2.2- Muestra
 
 Replique el diseño realizado en el artículo en localidades del Ecuador y genere el archivo **rarespecies.csv**. 
 
 ```{r crd_anfibios}
-sitios = c("Sitio1", "Chuquitos", "Chompi")
+sitios = c("Sitio1", "Archidona", "Tena" , "Cotundo" ,"Pacto Sumaco")
 
 ```
 Explique el resultado muestra: 
@@ -67,18 +68,26 @@ Explique el resultado muestra:
 
 
 
-## Variables
+##2.3- Variables
 ¿Cuáles son sus variables (dependiente(s) e independiente(s))? Explique cada una de las variables
 
-**Respuesta:**
+**Respuesta: VD
+ 
+ ***Mostrar que la facilitación favorece al establecimientos de especies raras que tien baja afinidad por los sustratos.También porque una vez que las plantas de maduran muestran la facilitación de reducción de rendimiento entre las especies de las comunidades
 
+**Respuesta: ID
 
-## Gráfica e hipótesis
+*** Aspectos críticos de la facilitación que pueden amortiguar la pérdida de especies.
+
+## 2.4 Gráfica e hipótesis
 En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del artículo mostrando [Coloque adecuadamente las leyendas]. Describa su figura justifique su razonamiento.
 
 **Respuesta (adjunte una foto de la imagen o genere una gráfica con código)**
-<center>![](hola.png)</center>
+<center>![](foto.jpeg)</center>
 
+Respuesta:
+
+****Aquí nos representa lo puntos de todos los lugares seleccionados osea una correlación de una fuerza de interacción planta con planta (RII) y el índice de la afinidad del yeso que viene representado con (g).Lo cual se mostró una conexión negativa entre la facilitacion y la afinidad de los suelos de todas las especies raras en todas las localidades.
 
 
 
