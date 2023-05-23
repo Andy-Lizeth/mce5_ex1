@@ -58,14 +58,21 @@ Las especies que tienen baja afinidad alos suelos con el ambiente y la reducció
 
 Replique el diseño realizado en el artículo en localidades del Ecuador y genere el archivo **rarespecies.csv**. 
 
-```{r crd_anfibios}
-sitios = c("Sitio1", "Archidona", "Tena" , "Cotundo" ,"Pacto Sumaco")
+```{r crd_raraespecies}
+sitios = c( "Archidona", "Tena" , "Cotundo" ,"Pacto Sumaco")
+Archidona=sample(1:20, size=8)
+Tena=sample(1:40, size=8)
+Cotundo=sample(1:35,size=8)
+PactoSumaco=sample(1:39, size=8)
+datos=data.frame(sitios, Archidona, Tena, Cotundo, PactoSumaco)
 
+write.csv(file="raraespecies_muestra.csv",datos)
 ```
 Explique el resultado muestra: 
 
 **Respuesta:**
 
+***Se escogió estos 4 lugares debido a las diferentes condiciones  que se presentan lo cual podremos abordar diferentes resultados por ejemplo la cobertura de todas las especies de las plantas o observar la vegetación con otros individuso de la misma especie de una comunidad con las plantas que crecen solas en la vegetación, ver la abundancia del suelo .
 
 
 ##2.3- Variables

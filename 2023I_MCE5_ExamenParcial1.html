@@ -2903,9 +2903,22 @@ vegetación facilitarían amortiguar la pérdida de especies raras.</p>
 <p>##2.2- Muestra</p>
 <p>Replique el diseño realizado en el artículo en localidades del
 Ecuador y genere el archivo <strong>rarespecies.csv</strong>.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sitios <span class="ot">=</span> <span class="fu">c</span>(<span class="st">&quot;Sitio1&quot;</span>, <span class="st">&quot;Archidona&quot;</span>, <span class="st">&quot;Tena&quot;</span> , <span class="st">&quot;Cotundo&quot;</span> ,<span class="st">&quot;Pacto Sumaco&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sitios <span class="ot">=</span> <span class="fu">c</span>( <span class="st">&quot;Archidona&quot;</span>, <span class="st">&quot;Tena&quot;</span> , <span class="st">&quot;Cotundo&quot;</span> ,<span class="st">&quot;Pacto Sumaco&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Archidona<span class="ot">=</span><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>, <span class="at">size=</span><span class="dv">8</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Tena<span class="ot">=</span><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">40</span>, <span class="at">size=</span><span class="dv">8</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>Cotundo<span class="ot">=</span><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">35</span>,<span class="at">size=</span><span class="dv">8</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>PactoSumaco<span class="ot">=</span><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">39</span>, <span class="at">size=</span><span class="dv">8</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>datos<span class="ot">=</span><span class="fu">data.frame</span>(sitios, Archidona, Tena, Cotundo, PactoSumaco)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(<span class="at">file=</span><span class="st">&quot;raraespecies_muestra.csv&quot;</span>,datos)</span></code></pre></div>
 <p>Explique el resultado muestra:</p>
 <p><strong>Respuesta:</strong></p>
+<p>***Se escogió estos 4 lugares debido a las diferentes condiciones que
+se presentan lo cual podremos abordar diferentes resultados por ejemplo
+la cobertura de todas las especies de las plantas o observar la
+vegetación con otros individuso de la misma especie de una comunidad con
+las plantas que crecen solas en la vegetación, ver la abundancia del
+suelo .</p>
 <p>##2.3- Variables ¿Cuáles son sus variables (dependiente(s) e
 independiente(s))? Explique cada una de las variables</p>
 <p>**Respuesta: VD</p>
