@@ -90,7 +90,7 @@ Explique el resultado muestra:
 En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del artículo mostrando [Coloque adecuadamente las leyendas]. Describa su figura justifique su razonamiento.
 
 **Respuesta (adjunte una foto de la imagen o genere una gráfica con código)**
-<center>![](foto.jpeg)</center>
+<center>![](fotito.jpeg)</center>
 
 Respuesta:
 
